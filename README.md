@@ -10,5 +10,5 @@ https://github.com/YOUR-USERNAME/Assignment-01
 
 \## 🚀 Live Deploy Link
 
-https://your-netlify-link.netlify.app
+https://webdev-assignment-01.netlify.app/
 
