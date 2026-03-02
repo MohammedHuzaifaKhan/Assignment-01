@@ -4,8 +4,7 @@
 
 \## 📌 GitHub Repository
 
-https://github.com/YOUR-USERNAME/Assignment-01
-
+https://github.com/MohammedHuzaifaKhan/Assignment-01.git
 
 
 \## 🚀 Live Deploy Link
