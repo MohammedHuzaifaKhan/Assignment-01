@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to <mark>TuteDude</mark></h1>
+        <p><em>A project designed by <strong>TuteDude </strong>to learn HTML</em></p>
+        <ul>
+            <li><a href="About TD">About TD</a></li>
+            <li><a href="Our Menu">Our Menu</a></li>
+            <li><a href="Taco Trivia">Taco Trivia</a></li>
+            <li><a href="Extra">Extra</a></li>
+            <li><a href="Feedback Form">Feedback Form</a></li>
+            <li><a href="Contact">Contact</a></li>
+        </ul>
+        <figure>
+            <img src="tutedude.jpg" alt="tutedude image">
+            <figcaption>TuteDude and a Drink</figcaption>
+        </figure>
+    </header>
+    <hr>
+
+    <main>
+        <section id="about">
+            <h2>About <abbr title="TuteDude">TD</abbr></h2>
+            <article>
+                <p>
+                    <abbr title="TuteDude">TD</abbr> was founded in
+                    <time datetime="2021">2021</time>.
+                    This demo project was created by
+                    <strong>TuteDude</strong> for learning all major HTML tags.
+                </p>
+                <blockquote>
+                    Level up your career with expart mentorship & interdhip for FREE
+                    <cite>– TuteDude</cite>
+                </blockquote>
+            </article>
+        </section>
+        <hr>
+        <section id="menu">
+            <section id="menu">
+
+                <h2>Our Menu</h2>
+
+                <table border="1" cellpadding="6" cellspacing="0" width="75%" align="center">
+
+                    <caption><strong>TuteDude Complete Taco Menu</strong></caption>
+
+                    <thead>
+                        <tr>
+                            <th rowspan="2">Category</th>
+                            <th rowspan="2">Type</th>
+                            <th colspan="2">Small Portion</th>
+                            <th colspan="2">Large Portion</th>
+                        </tr>
+                        <tr>
+                            <th>Qty</th>
+                            <th>Price</th>
+                            <th>Qty</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <!-- TuteDude -->
+                        <tr>
+                            <td rowspan="3">TuteDude</td>
+                            <td>Crunchy (Beef)</td>
+                            <td>1</td>
+                            <td>$1.50</td>
+                            <td>3</td>
+                            <td>$3.25</td>
+                        </tr>
+
+                        <tr>
+                            <td>Crunchy (Chicken)</td>
+                            <td>1</td>
+                            <td>$1.75</td>
+                            <td>3</td>
+                            <td>$3.50</td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                Crunchy (Veggie)<br>
+                                <em>Nutrition Info</em>
+
+                                <!-- Nested Table -->
+                                <table border="1" cellpadding="4" cellspacing="0">
+                                    <tr>
+                                        <th>Nutrient</th>
+                                        <th>Value</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Calories</td>
+                                        <td>150 kcal</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Protein</td>
+                                        <td>5 g</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Fiber</td>
+                                        <td>4 g</td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                            <td>1</td>
+                            <td>$1.25</td>
+                            <td>3</td>
+                            <td>$3.00</td>
+                        </tr>
+
+                        <!-- Soft TuteDude -->
+                        <tr>
+                            <td rowspan="2">Soft TuteDude</td>
+                            <td>Soft (Beef)</td>
+                            <td>2</td>
+                            <td>$3.50</td>
+                            <td>4</td>
+                            <td>$6.50</td>
+                        </tr>
+
+                        <tr>
+                            <td>Soft (Veggie)</td>
+                            <td>2</td>
+                            <td>$3.00</td>
+                            <td>4</td>
+                            <td>$5.50</td>
+                        </tr>
+
+                        <!-- Combos -->
+                        <tr>
+                            <td rowspan="2">Combos</td>
+                            <td>2 Crunchy + Drink</td>
+                            <td colspan="2">$4.50</td>
+                            <td colspan="2">N/A</td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                2 Soft + Drink<br>
+                                <em>Combo Meals Nutrition Facts</em>
+
+                                <!-- Nested Table -->
+                                <table border="1" cellpadding="4" cellspacing="0">
+                                    <tr>
+                                        <th>Item</th>
+                                        <th>Calories</th>
+                                        <th>Sugar</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Soft Taco</td>
+                                        <td>200 kcal</td>
+                                        <td>2 g</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Drink</td>
+                                        <td>120 kcal</td>
+                                        <td>25 g</td>
+                                    </tr>
+                                    <tr>
+                                        <td><strong>Total</strong></td>
+                                        <td><strong>320 kcal</strong></td>
+                                        <td><strong>27 g</strong></td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                            <td colspan="2">$5.00</td>
+                            <td colspan="2">N/A</td>
+                        </tr>
+
+                        <!-- Extras -->
+                        <tr>
+                            <td rowspan="2">Extras</td>
+                            <td>Chips & Salsa</td>
+                            <td colspan="4">$2.00</td>
+                        </tr>
+
+                        <tr>
+                            <td>Guacamole</td>
+                            <td colspan="4">$1.50</td>
+                        </tr>
+
+                    </tbody>
+
+                    <tfoot>
+                        <tr>
+                            <td colspan="6">
+                                <strong>Average Meal Price Range: $2.00 – $6.50</strong>
+                            </td>
+                        </tr>
+                    </tfoot>
+
+                </table>
+
+            </section>
+            <li><a href="index.html">Back to top</a></li>
+
+        </section>
+
+
+        <section id="trivia">
+
+            <h2>Taco Trivia</h2>
+
+            <aside>
+                <details>
+                    <summary>When did TuteDude first appear in the United States</summary>
+                    <p>
+                        TuteDude was founded in 2020 in India by IIT Delhi alumni. While it is an e-learning platform
+                        with a global reach, the provided search results do not specify an exact, separate date for its
+                        first appearance in the United States. </p>
+                </details>
+            </aside>
+
+        </section>
+        <hr>
+
+        <section id="extras">
+
+            <h2>Media Fun</h2>
+
+            <h3>Listen to Taco Music</h3>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <h3>Watch Taco Video</h3>
+            <video width="400" controls>
+                <source src="tutedude.mp4" type="video/mp4">
+                Your browser does not support the video element.
+            </video>
+
+        </section>
+    </main>
+    <hr>
+
+    <section id="feedback">
+
+        <h2>Customer Feedback</h2>
+
+        <form>
+
+            <fieldset>
+                <legend>Your Info</legend>
+
+                <label for="name">Full Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" required>
+            </fieldset>
+
+            <br>
+
+            <fieldset>
+                <legend>Your Message</legend>
+                <label for="message">Your Feedback:</label><br>
+                <textarea id="message" name="message" rows="4" cols="40"></textarea>
+                <br>
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+
+    </section>
+    <hr>
+        <footer id="contact">
+
+            <h2>Contact Us</h2>
+
+            <address>
+                TuteDude<br>
+                123 Taco Street<br>
+                Taco Town, TX 75000<br>
+                info@tutedude.com<br>
+            </address>
+
+            <p>
+                &copy; <time datetime="2025">2025</time> TuteDude. All rights reserved.
+            </p>
+    </footer>
+</body>
+
+</html>
