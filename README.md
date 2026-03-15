@@ -6,4 +6,4 @@ https://github.com/MohammedHuzaifaKhan/Assignment-01
 
 ## Live Deploy Link
 
-https://webdev-assignment-01.netlify.app/
+https://assignment1-web.netlify.app/
